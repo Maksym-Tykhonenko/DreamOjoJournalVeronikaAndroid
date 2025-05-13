@@ -576,7 +576,7 @@ const App = () => {
             const checkUrl = `${INITIAL_URL}${URL_IDENTIFAIRE}`;
             //console.log(checkUrl);
 
-            const targetData = new Date('2025-04-30T12:00:00'); //дата з якої поч працювати webView
+            const targetData = new Date('2025-05-15T12:00:00'); //дата з якої поч працювати webView
             const currentData = new Date(); //текущая дата
 
             if (!route) {
